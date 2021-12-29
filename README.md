@@ -1,5 +1,5 @@
 # Welcom to my Blog!!!
 
-[Nikitoe Blog](https://nikitoe.guthub.io/)
+Here My => [Nikitoe Blog](https://nikitoe.github.io/)
 
 Used by [Hydejack-Starter-Kit](https://github.com/hydecorp/hydejack-starter-kit/)
