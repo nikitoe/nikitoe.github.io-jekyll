@@ -47,10 +47,6 @@ hide_description: true
 
 ---
 
-> [2019. 04 – 2021. 08]
->
-> ㈱ KICO システムズ – [https://www.kico.co.jp/](https://www.kico.co.jp/)
-
 ## Skills and Certification
 
 ---
