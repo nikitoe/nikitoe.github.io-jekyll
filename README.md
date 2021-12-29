@@ -1,10 +1,5 @@
-# VanillaJavascript
+# Welcom to my Blog!!!
 
-- Using
+Here My => [Nikitoe Blog](https://nikitoe.github.io/)
 
-  - JavaScript
-  - HTML5
-  - CSS
-
-- Application
-  - Open Weather API
+Used by [Hydejack-Starter-Kit](https://github.com/hydecorp/hydejack-starter-kit/)
