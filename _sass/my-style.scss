@@ -38,3 +38,67 @@
 .nav-btn-bar {
   height: 3rem;
 }
+
+// profile avatar image
+.content .avatar {
+  float: left !important; // jekyll로인해 강제로 왼쪽으로 보낼지 오른쪽으로 보낼지
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: 5px !important;
+  margin-right: 5px !important;
+  width: 140px !important; // 이미지 크기
+  height: 140px !important;
+}
+
+.author-body-description {
+  margin-left: 200px !important; // 소개글 위치 정하기 200px
+  margin-top: 40px !important; // 40px
+}
+
+.sidebar-social {
+  margin-left: 100px !important; // social바 위치 정하기 200px
+}
+
+.content a:not(.btn):not(.no-hover) {
+    text-decoration-color: rgba(255, 16,  16, 0.5);
+}
+
+.markdown-body > p > a {
+  font-weight: bold !important;
+  color: rgb(3, 102, 214) !important;
+}
+
+.markdown-body > ol > li > p > a {
+  font-weight: bold !important;
+  color: rgb(3, 102, 214) !important;
+}
+
+.markdown-body > ul > li > a {
+  font-weight: bold !important;
+  color: rgb(3, 102, 214) !important;
+}
+
+.markdown-body {
+  kbd {
+    font-size:15px;
+    font-family:monospace;
+    color:#555;
+    background-color: #fcfcfc;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+    border-bottom-color: #bbb;
+    padding: 3px 5px;
+  }
+  mark {
+    padding:3px 5px;
+    background-color: #FFF9C4;
+  }
+
+  under {
+    text-decoration: underline;
+    text-decoration-color: red !important;
+    text-underline-position:under;
+    padding-bottom : 2px;
+  }
+}
