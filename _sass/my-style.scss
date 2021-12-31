@@ -56,12 +56,8 @@
   margin-top: 40px !important; // 40px
 }
 
-.sidebar-social {
-  margin-left: 100px !important; // social바 위치 정하기 200px
-}
-
 .content a:not(.btn):not(.no-hover) {
-    text-decoration-color: rgba(255, 16,  16, 0.5);
+  text-decoration-color: rgba(255, 16, 16, 0.5);
 }
 
 .markdown-body > p > a {
@@ -74,31 +70,26 @@
   color: rgb(3, 102, 214) !important;
 }
 
-.markdown-body > ul > li > a {
-  font-weight: bold !important;
-  color: rgb(3, 102, 214) !important;
-}
-
 .markdown-body {
   kbd {
-    font-size:15px;
-    font-family:monospace;
-    color:#555;
+    font-size: 15px;
+    font-family: monospace;
+    color: #555;
     background-color: #fcfcfc;
-    border:solid 1px #ccc;
+    border: solid 1px #ccc;
     border-radius: 3px;
     border-bottom-color: #bbb;
     padding: 3px 5px;
   }
   mark {
-    padding:3px 5px;
-    background-color: #FFF9C4;
+    padding: 3px 5px;
+    background-color: #fff9c4;
   }
 
   under {
     text-decoration: underline;
     text-decoration-color: red !important;
-    text-underline-position:under;
-    padding-bottom : 2px;
+    text-underline-position: under;
+    padding-bottom: 2px;
   }
 }
