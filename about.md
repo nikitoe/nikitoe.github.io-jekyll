@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/me/me.jpg
+image: /assets/img/me/me.jpg
 description: >
   풀 스택을 꿈 꾸면서 Front-End를 공부하고 있는 취준생입니다.
 hide_description: true
