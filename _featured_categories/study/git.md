@@ -1,10 +1,10 @@
 ---
 layout: list
-category: subcat
-bigtitle: Test1
-slug: test1
+category: study
+bigtitle: Git
+slug: git
 description: >
-  하위메뉴 테스트1
+  Git
 
 related_posts:
   -

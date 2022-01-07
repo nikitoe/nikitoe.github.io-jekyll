@@ -1,10 +1,10 @@
 ---
 layout: list
-category: subcat
-bigtitle: Test1
-slug: test1
+category: study
+bigtitle: Spring
+slug: spring
 description: >
-  하위메뉴 테스트1
+  Spring
 
 related_posts:
   -

@@ -1,10 +1,10 @@
 ---
 layout: list
-category: subcat
-bigtitle: Test1
-slug: test1
+category: study
+bigtitle: Python
+slug: python
 description: >
-  하위메뉴 테스트1
+  Python
 
 related_posts:
   -

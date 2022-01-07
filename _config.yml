@@ -62,6 +62,24 @@ menu:
         url: /test1/
       - title: Test2
         url: /test2/
+  - title: Record Storage
+    url : /record-storage/
+  - title: Project
+    url: /project/
+  - title: Study
+    url: /study/
+    submenu:
+      - title: Java
+        url: /java/
+      - title: Spring
+        url: /spring/
+      - title: Python
+        url: /python/
+      - title: React 
+        url: /react/
+      - title: Git
+        url: /git/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
