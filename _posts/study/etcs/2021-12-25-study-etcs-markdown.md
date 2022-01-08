@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 마크다운 기초
+title: Study-Etc-markdown
 description: >
   마크다운 기초 설명
 sitemap: false
 hide_last_modified: false
 categories:
-  - example1
+  - study
+  - etcs
 ---
 
 # 마크다운 기초 설명

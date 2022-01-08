@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Subcat-Test2-post2
+title: Etc-Food-post1
 image: /assets/img/blog/jj-ying.jpg
 accent_image:
   background: url('/assets/img/blog/jj-ying.jpg') center/cover
@@ -9,13 +9,14 @@ accent_color: "#ccc"
 theme_color: "#ccc"
 description: >
   Version 9.1 provides minor design changes, new features, and closes multiple issues.
-invert_sidebar: true
+sitemap: false
+hide_last_modified: false
 categories:
-  - subcat
-  - test2
+  - etc
+  - food
 ---
 
-# Subcat-Test2-post2
+# Etc-Food-post1
 
 What's New in Hydejack 9.1?
 

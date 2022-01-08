@@ -17,9 +17,11 @@ description: >
 - [Python]{:.heading.flip-title} --- Python 공부
 - [React]{:.heading.flip-title} --- React 공부
 - [Git]{:.heading.flip-title} --- Git 공부
+- [Etcs]{:.heading.flip-title} --- 기타
 
 [Java]: /java/
 [Spring]: /spring/
 [Python]: /python/
 [React]: /react/
 [Git]: /git/
+[Etcs]: /etcs/

@@ -1,10 +1,10 @@
 ---
 layout: list
-category: subcat
-bigtitle: Test1
-slug: test1
+category: etc
+bigtitle: Food
+slug: food
 description: >
-  하위메뉴 테스트1
+  Food
 
 related_posts:
   -

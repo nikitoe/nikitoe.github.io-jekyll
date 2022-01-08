@@ -51,19 +51,6 @@ menu:
     url: /about/
   - title: Posts
     url: /posts/
-  - title: Example1
-    url: /example1/
-  - title: Example2
-    url: /example2/
-  - title: Subcat
-    url: /subcat/
-    submenu:
-      - title: Test1
-        url: /test1/
-      - title: Test2
-        url: /test2/
-  - title: Record Storage
-    url : /record-storage/
   - title: Project
     url: /project/
   - title: Study
@@ -79,6 +66,13 @@ menu:
         url: /react/
       - title: Git
         url: /git/
+      - title: Etcs
+        url: /etcs/
+  - title: Etc
+    url: /etc/
+    submenu:
+      - title: food
+        url: /food/
 
 
 # Add links to the footer.
