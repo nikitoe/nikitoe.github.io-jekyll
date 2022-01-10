@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Study-Etc-markdown
-description: >
-  마크다운 기초 설명
+image: /assets/img/blog/study/markdown.jpg
 sitemap: false
 hide_last_modified: false
 categories:
@@ -11,6 +10,8 @@ categories:
 ---
 
 # 마크다운 기초 설명
+
+---
 
 * toc
 {:toc .large-only}

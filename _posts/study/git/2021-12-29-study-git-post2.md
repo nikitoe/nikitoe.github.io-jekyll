@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Study-Git-post2
-description: >
-  [Git]에러(error: failed to push some refs to...)
+image: /assets/img/blog/study/background-git2.png
 sitemap: false
 hide_last_modified: false
 categories:
@@ -14,11 +13,11 @@ categories:
 
 ---
 
-상황
+## 상황
 
-Github 주소 Repositary 에서 직접 [README.md](http://README.md) 파일을 수정한 상태로, 로컬에서 ‘git add’ , ‘git commit’, ‘git push’를 한 상태이다.
+Github 주소 Repositary 에서 직접 README.md 파일을 수정한 상태로, 로컬에서 ‘git add’ , ‘git commit’, ‘git push’를 한 상태이다.
 
-### 에러발생
+## 에러발생
 
 Github 주소 Repositary에서 직접 README.md를 수정한것을 잊고, 로컬에서 작업을 진행하였다...
 
@@ -133,7 +132,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 마지막으로 ‘git resotre’ 명령어를 사용하여 수정한 파일들을 되돌리고, ‘git status’ 명어로 clean된 작업트리의 상태를 확인한다.
 
 <aside>
-💡 git restore <파일명> :  수정한 파일 되돌리는 명령어
+💡 git restore '파일명' :  수정한 파일 되돌리는 명령어
 
 </aside>
 
@@ -142,7 +141,7 @@ C:\폴더경로>git restore README.md
 
 C:\폴더경로>git restore _data/authors.yml         
 
->git restore about.md
+C:\폴더경로>>git restore about.md
 
 C:\폴더경로>git status
 On branch master
@@ -164,7 +163,7 @@ Merge made by the 'recursive' strategy.
  delete mode 100644 README.md
 ```
 
-### 마무리
+## 마무리
 
 이번 git 에러를 통해 많은 것을 배웠다.
 
