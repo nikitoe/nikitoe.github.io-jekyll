@@ -24,13 +24,13 @@ categories:
 
 </aside>
 
-> MAC 사용자는 [iTerm2]([https://iterm2.com/](https://iterm2.com/))
+> MAC 사용자는 [Iterm2](https://iterm2.com/)
 >
-> WINDOW 사용자는 [cmder]([https://cmder.net/](https://cmder.net/)) (※ Git이 포함되서 설치됨)
+> WINDOW 사용자는 [cmder](https://cmder.net/) (※ Git이 포함되서 설치됨)
 
 <br>
 
-- [깃 홈페이지]([https://git-scm.com/downloads](https://git-scm.com/downloads))에서 다운로드 받는다.
+- [깃 홈페이지](https://git-scm.com/downloads)에서 다운로드 받는다.
 
 <br>
 
@@ -77,7 +77,7 @@ C:\폴더경로>git config --global core.autocrlf true
 
 <br>
 
-- [깃 공식 홈페이지]([https://git-scm.com/docs](https://git-scm.com/docs))에서 Git에서 사용하는 모든 멍령어를 찾아 볼 수있다.
+- [깃 공식 홈페이지](https://git-scm.com/docs)에서 Git에서 사용하는 모든 멍령어를 찾아 볼 수있다.
 
 ![그림1](/assets/img/blog/study/git/study-git-point01.png)
 
@@ -431,3 +431,75 @@ c.text파일
 style.css파일
 
 ![그림5](/assets/img/blog/study/git/study-git-diff03.png)
+<br>
+
+## Git commit
+
+<br>
+
+- ‘git commit’ 명령어로  commit을 한다
+
+```bash
+C:\폴더경로\git (master)
+λ git commit
+[master (root-commit) b87715f] Title
+ 2 files changed, 2 insertions(+)
+ create mode 100644 c.txt
+ create mode 100644 style.css
+```
+
+‘gt commit’할대 아무런 속성을 하지않으면 에디터를 열고 메시지를 작성하고 저장하고 닫는 번거러움이 발생한다.
+
+그래서 속성값을 줘서 바로 메시지를 입력하고 commit을 할 수 있다.
+
+```bash
+C:\폴더경로\git (master)
+λ git commit -am "third commit"
+[master 0c36fbd] third commit
+ 1 file changed, 1 insertion(+)
+```
+
+-a : all의 의미로 모든것을 선택하겠다,
+
+-m :message의 의미로 메시지를 값을 지정한다.
+
+<br>
+
+- ‘git log’명령어로 git의 모든 history정보를 확인할 수 있다.
+
+```bash
+C:\폴더경로\git (master)
+λ git log
+commit 0c36fbd1f7d43eac2a535c05466ea943acb24d97 (HEAD -> master)
+Author: Jiyong Sim <sjy19910222@gmail.com>
+Date:   Thu Jan 13 19:18:07 2022 +0900
+
+    third commit
+
+commit e233416842ba083fb68f2910018ba36ef38a0ff6
+Author: Jiyong Sim <sjy19910222@gmail.com>
+Date:   Thu Jan 13 19:17:09 2022 +0900
+
+    second commit
+
+commit b87715fb41bfa385be2782764b4a0a78e7ded25a
+Author: Jiyong Sim <sjy19910222@gmail.com>
+Date:   Thu Jan 13 19:14:23 2022 +0900
+
+    Title
+
+    Description
+```
+
+<br>
+
+<aside>
+💡 커밋 팁!!!
+
+</aside>
+
+- 기능별로 작은 단위로 나누어 만들어 나가는것이 중요!
+- 무분별할 commit보다는 의미있는 commit을 해야한다.
+- commit의 메세지는 보통 현재형과 동사형으로 만든다.(ex. Init, Add, Fix등)
+- 고친내용을 commit할때는, 고친내용만 commit해야한다. (다른 기능을 고치거나 건드는 행위는 금지❌)
+- 너무 크거나 너무 작은 commit은 금지 ❌
