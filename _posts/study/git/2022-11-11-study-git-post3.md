@@ -12,6 +12,8 @@ categories:
 # [Git]기본 정리
 
 ---
+* toc
+{:toc .large-only}
 
 # Git 기본 정리
 
@@ -22,13 +24,9 @@ categories:
 
 </aside>
 
-- MAC 사용자는 [iTerm2]([https://iterm2.com/](https://iterm2.com/))
-
-<br>
-
-<br>
-
-- WINDOW 사용자는 [cmder]([https://cmder.net/](https://cmder.net/)) (※ Git이 포함되서 설치됨)
+> MAC 사용자는 [iTerm2]([https://iterm2.com/](https://iterm2.com/))
+>
+> WINDOW 사용자는 [cmder]([https://cmder.net/](https://cmder.net/)) (※ Git이 포함되서 설치됨)
 
 <br>
 
