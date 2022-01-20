@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Study-Etc-markdown
-image: /assets/img/blog/study/markdown.jpg
+title: Study-Etc-Markdown
+image: /assets/img/blog/study/background-markdown.jpg
 sitemap: false
 hide_last_modified: false
 categories:
@@ -57,19 +57,6 @@ Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의�
 ##### this is a h5
 ###### this is a h6
 ```
-
-🔍 **결과**
-
-# 이것은 h1
-
-## 이것은 h2
-
-### 이것은 h3
-
-#### 이것은 h4
-
-##### 이것은 h5
-
 ### 2. 코드블럭
 
 위에서 장단점을 설명할때 사용한 박스를 4가지 방식을 사용하여 나타내본다.
@@ -313,7 +300,7 @@ _   underscore
   [링크 키워드](링크 주소)
 
 ```
-예 : [내 블로그](https://khw11044.github.io/about.html)
+예 : [내 블로그](https://nikitoe.github.io/about.html)
 ```
 
 > 🔍 **결과**
@@ -323,7 +310,7 @@ _   underscore
 - 자동 링크
 
 ```
-예 : <https://khw11044.github.io/about.html>
+예 : <https://nikitoe.github.io/about.html>
 ```
 
 > 🔍 **결과**
@@ -527,3 +514,6 @@ $$x + y = 1$$
         });
     });
 </script>
+
+### 참고
+https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

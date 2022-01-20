@@ -58,6 +58,8 @@ menu:
     submenu:
       - title: Java
         url: /java/
+      - title: JavaScript
+        url: /javascript/
       - title: Spring
         url: /spring/
       - title: Python
