@@ -9,7 +9,7 @@ categories:
   - etcs
 ---
 
-# 마크다운 기초 설명
+# [Markdown] 기초 이론 정리
 
 ---
 

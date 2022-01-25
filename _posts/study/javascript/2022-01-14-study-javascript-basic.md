@@ -3,13 +3,13 @@ layout: post
 title: Study-JavaScript-Basic
 image: /assets/img/blog/study/background-javascript.png
 sitemap: false
-hide_last_modified: false
+hide_last_modified: true
 categories:
   - study
   - javascript
 ---
 
-# [JavaScript] 기초
+# [JavaScript] 기초 이론 정리
 
 ---
 
