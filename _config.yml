@@ -64,7 +64,7 @@ menu:
         url: /spring/
       - title: Python
         url: /python/
-      - title: React 
+      - title: React
         url: /react/
       - title: Git
         url: /git/
@@ -75,7 +75,6 @@ menu:
     submenu:
       - title: food
         url: /food/
-
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

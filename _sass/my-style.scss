@@ -36,9 +36,14 @@
 }
 
 .nav-btn-bar {
-  height: 3rem;
+  height: 4rem;
 }
 
+.nav-span {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 48px;
+}
 // profile avatar image
 .content .avatar {
   float: left !important; // jekyll로인해 강제로 왼쪽으로 보낼지 오른쪽으로 보낼지
@@ -116,9 +121,6 @@ _sass > my-style.scss .page-control {
   justify-content: space-between;
 }
 
-.page-control > div {
-  max-width: 50%;
-}
 .page-control {
   height: 100%;
   display: flex;
@@ -276,10 +278,66 @@ a::after {
   margin-top: 0 !important;
 }
 
-div.post-date{
+div.post-date {
   height: auto;
 }
 
-.content .aspect-ratio img{
+.content .aspect-ratio img {
   height: auto;
+}
+
+/* For below 768px screen width */
+@media screen and (max-width: 768px) {
+  :root {
+    /* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-regular: 16px;
+    --font-small: 14px;
+    --font-micro: 12px;
+  }
+
+  // profile avatar image
+  .content .avatar {
+    float: right !important; // jekyll로인해 강제로 왼쪽으로 보낼지 오른쪽으로 보낼지
+    box-sizing: content-box;
+    border: 1rem solid var(--body-bg);
+    transition: border-color 1s ease;
+    margin-top: -10px !important;
+    margin-right: -10px !important;
+    width: 100px !important; // 이미지 크기
+    height: 100px !important;
+  }
+
+  .author-body-description {
+    margin-left: 0 !important; // 소개글 위치 정하기 200px
+    margin-top: 20px !important; // 40px
+  }
+
+  .nav-btn.no-hover {
+    font-size: larger;
+  }
+
+  .top-menu.nav-btn {
+    display: none;
+  }
+
+  .page-control {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-control > div {
+    max-width: 50%;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px 40px;
+  }
+
+  .sidebar-social {
+  }
 }
