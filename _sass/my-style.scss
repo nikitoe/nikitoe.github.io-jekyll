@@ -99,6 +99,13 @@
   }
 }
 
+#markdown-toc {
+  position: fixed !important;
+  top: 120px;
+  overflow-y: auto;
+  height: 700px;
+}
+
 code {
   padding: 0.25em 0.5em;
   background-color: rgb(251, 232, 201);
