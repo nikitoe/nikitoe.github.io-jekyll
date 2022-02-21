@@ -16,3 +16,9 @@ categories:
 {:toc .large-only}
 
 # Log・History
+
+## fast-forward merges
+
+## 3-way merges
+
+## WIP(working In Progress)
