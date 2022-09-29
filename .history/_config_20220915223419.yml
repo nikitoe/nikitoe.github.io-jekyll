@@ -24,7 +24,7 @@ title: 심지용님의 블로그
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  풀 스택을 꿈 꾸며 Front-End 개발자가 되기 위해 나아가는 블로그
+  풀 스택을 꿈 꾸며 Back-End 개발자가 되기 위해 나아가는 블로그
 
 # A shorter description for the sidebar.
 tagline: 면접관이 좋아하는 GitBlog
@@ -53,6 +53,9 @@ menu:
     url: /posts/
   - title: Project
     url: /project/
+    submenu:
+      - title: Back-End
+        url: /backend/    
   - title: Study
     url: /study/
     submenu:
@@ -99,8 +102,8 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
